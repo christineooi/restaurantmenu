@@ -26,6 +26,7 @@ dt {display: inline; font-weight: bold; font-size: '16px';}
 /* Make a comma appear after the name of each menu item (before the description) */
 dt::after {
     content: ",";
+    display: inline;
 }
 dd {display: inline; margin: 0;}
 dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
@@ -35,6 +36,7 @@ dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
 /* Right-align the text of the address/footer */
 footer{
     text-align: right;
+    float: right;
 }
 /* draw a 2px thick black border around the starters and desserts sections of the menu */
 #starters, #desserts {
@@ -42,5 +44,12 @@ footer{
     border-style: solid;
     border-color: black;
     padding: '1em';    
+
+}
+
+#starters, #desserts {
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thick;   
 
 }
