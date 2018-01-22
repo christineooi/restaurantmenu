@@ -51,7 +51,7 @@ footer {
 }
 */
 address {padding: 10px;
-    outline-style: dashed;
+    /*outline-style: dashed;
     outline-color: 'rosybrown';
-    outline-width: '2px';
+    outline-width: '2px';*/
 }
