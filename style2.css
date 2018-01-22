@@ -35,10 +35,11 @@ dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
 
 /* Right-align the text of the address/footer */
 footer{
-    text-align: right;
+    /*text-align: right;*/
     float: right;
 }
 /* draw a 2px thick black border around the starters and desserts sections of the menu */
+/*
 #starters, #desserts {
     border: '2px';
     border-style: solid;
@@ -46,7 +47,7 @@ footer{
     padding: '1em';    
 
 }
-
+*/
 #starters, #desserts {
     outline-style: solid;
     outline-color: black;
