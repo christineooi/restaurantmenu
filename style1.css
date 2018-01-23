@@ -20,7 +20,7 @@ h1 {
 
 /* Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. */
 #menu {columns: 400px 2; column-gap: 100px; column-rule: '2px'; column-rule-style: dashed; column-rule-color: rosybrown;}
-section {margin-bottom: 50px;}
+section {margin-bottom: 55px;}
 
 /* Show each of the section headings of the menu (e.g. "Starters") in small caps, colored #6d4c41. */
 h2 {margin: 0;
@@ -51,7 +51,7 @@ footer {
 }
 */
 address {padding: 10px;
-    /*outline-style: dashed;
+    outline-style: dashed;
     outline-color: 'rosybrown';
-    outline-width: '2px';*/
+    outline-width: '2px';
 }
