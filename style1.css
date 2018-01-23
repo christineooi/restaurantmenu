@@ -41,7 +41,7 @@ dd {margin: 0 0 12px 0; display: flex;}
 
 
 /* Show the price of each item in a large font, in the color named 'firebrick' */
-.price {order: 2; padding-left: 10px; font-size: large; color:'firebrick';}
+.price {order: 2; padding-left: 10px; font-size: large; color:firebrick;}
 
 /* Draw a 2px dashed rosybrown border around the address/footer */
 /*
@@ -53,6 +53,6 @@ footer {
 */
 address {padding: 10px;
     outline-style: dashed;
-    outline-color: 'rosybrown';
-    outline-width: '2px';
+    outline-color: rosybrown;
+    outline-width: 2px;
 }
