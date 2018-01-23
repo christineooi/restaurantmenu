@@ -3,7 +3,7 @@
 /* Use the 'Lato' font family at 18px throughout the body of the document, and cover the background with the 'map-bg.jpg' image. */
 body {
     font-family: 'Lato','san-serif';
-    font-size: '18px';
+    font-size: 18px;
     color: black;
     background-image: url('map-bg.jpg');
 }
