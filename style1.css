@@ -27,12 +27,10 @@ section {margin-bottom: 50px;}
 h2 {margin: 0;
     font-variant: small-caps;
     color: '#6d4c41';
-    color: brown;
 }
 
 /* Make the name of each menu item appear in bold in a 20px size. */
 dt {
-    font-weight: 'bold';
     font-weight: bolder;
     font-size: '20px';
 }
